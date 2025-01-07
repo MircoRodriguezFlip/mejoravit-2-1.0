@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import LogoNavbar from '../../assets/images/Logo Mejoravit Home.webp';
+import LogoNavbar from '../../assets/images/Logo Mejoravit Home negro.webp';
 import TarjetaCredito from '../../assets/images/Tarjeta 2.webp';
 import FlechaHome from '../../assets/images/Flecha Home.webp';
 

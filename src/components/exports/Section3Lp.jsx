@@ -10,10 +10,6 @@ export const Section3Lp = () => {
 
             <div className="section-3-lp-2 light-text">
                 <div>
-                    <img src={ImgSection3LP} alt="Imagen de la sección 3 de la landing page" />
-                </div>
-
-                <div>
                     <ul>
                         <li>Ser derechohabiente de Infonavit.</li>
                         <li>Tener en tu subcuenta de ahorro un mínimo de $20,971.58 pesos.</li>
@@ -22,6 +18,10 @@ export const Section3Lp = () => {
                         <li>No exceder de 65 años de edad.</li>
                         <li>No tener otro crédito vigente con Infonavit.</li>
                     </ul>
+                </div>
+
+                <div>
+                    <img src={ImgSection3LP} alt="Imagen de la sección 3 de la landing page" />
                 </div>
             </div>
         </section>

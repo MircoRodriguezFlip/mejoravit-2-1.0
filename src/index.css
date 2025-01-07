@@ -23,7 +23,7 @@
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
     margin: 0;
     padding: 0;
 }
@@ -153,7 +153,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 10px;
-    background-color: violet;
+    background-color: white;
 }
 
 .section-1-lp-1-1 img {
@@ -268,17 +268,17 @@ body {
     height: auto;
     user-select: none;
     pointer-events: none;
-    margin-bottom: -62px;
+    margin-bottom: -61px;
 }
 
-/* --------------------------------- SECTION 2 LP*/
+/* --------------------------------- SECTION 3 LP*/
 
 .section-3-lp-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -289,13 +289,6 @@ body {
 
 .section-3-lp-1 {
     padding: 20px 0;
-}
-
-.section-3-lp-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
 
 .section-3-lp-2 img {
@@ -315,6 +308,70 @@ body {
 
 .section-3-lp-2 ul li {
     padding-bottom: 10px;
+}
+
+/* --------------------------------- SECTION 4 LP*/
+
+.section-4-lp-container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.section-4-lp-pasos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-4-lp-pasos img {
+    width: 80px;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+.section-4-lp-pasos p {
+    text-align: start;
+    margin-left: 10px;
+}
+
+/* --------------------------------- SECTION 5 LP*/
+
+.section-5-lp-container {
+    padding: 0 10px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.section-5-lp-1 p {
+    text-align: justify;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.section-5-lp-2 img {
+    width: 200px;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+    margin-left: 130px;
+    margin-bottom: -12px;
+}
+
+.div-pag {
+    padding: 0 10px;
+}
+
+.div-pag hr {
+    margin: 0;
+    padding: 0 10px;
+    color: white;
 }
 
 /* -------------------------------------------------------------------------- FOOTER */
