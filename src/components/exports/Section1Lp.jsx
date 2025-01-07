@@ -9,23 +9,18 @@ export const Section1Lp = () => {
         <section className="section-1-lp-container">
             <div className="section-1-lp-1">
                 <div className="section-1-lp-1-1">
-                    <img src={LogoNavbar} alt="" />
+                    <img src={LogoNavbar} alt="Logo de MejoraVit" loading="lazy" />
                     <h1 className="bold-text">¡Solicita tu crédito!</h1>
                 </div>
 
                 <div className="section-1-lp-1-2">
-                    <img src={TarjetaCredito} alt="" />
+                    <img src={TarjetaCredito} alt="Imagen de Tarjeta de Crédito MejoraVit roja" loading="lazy" />
                 </div>
             </div>
 
             <div className="section-1-lp-2">
                 <div className="section-1-lp-2-1">
-                    <img
-                        src={FlechaHome}
-                        alt="Flecha hacia abajo para indicar el siguiente paso"
-                        className="flechaHaciaAbajo pt-sm-2"
-                        loading="lazy"
-                    />
+                    <img src={FlechaHome} alt="Flecha hacia abajo para indicar el siguiente paso" className="flecha-hacia-abajo" loading="lazy" />
 
                     <NavLink to="/precalificar" aria-label="Ir a la página de precalificación">
                         <button className="boton-home bold-text">SOLICITAR</button>

@@ -21,7 +21,7 @@ export const Section3Lp = () => {
                 </div>
 
                 <div>
-                    <img src={ImgSection3LP} alt="Imagen de la sección 3 de la landing page" />
+                    <img src={ImgSection3LP} alt="Tres Documentos apilados con un signo de check positivo" loading="lazy" />
                 </div>
             </div>
         </section>

@@ -17,7 +17,7 @@ export const Section2Lp = () => {
                 </div>
 
                 <div>
-                    <img src={ImgSection2LP} alt="Imagen de la sección 2 de la landing page" />
+                    <img src={ImgSection2LP} alt="Mujer apuntando con el dedo las características principales de crédito mejoravit" loading="lazy" />
                 </div>
             </div>
         </section>

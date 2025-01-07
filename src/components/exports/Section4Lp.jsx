@@ -32,7 +32,7 @@ export const Section4Lp = () => {
 
                     return (
                         <div key={step.highlight} className="section-4-lp-pasos">
-                            <img src={ImgPaloma4LP} alt="Ticket check, que funciona como marcador de los pasos a seguir" />
+                            <img src={ImgPaloma4LP} alt="Ticket check, que funciona como marcador de los pasos a seguir" loading="lazy" />
                             <p>
                                 {before}
                                 <strong>{step.highlight}</strong>

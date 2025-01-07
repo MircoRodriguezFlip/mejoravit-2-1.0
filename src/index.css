@@ -143,7 +143,18 @@ body {
     color: var(--primary-color);
     font-weight: bold;
 }
+
 /* -------------------------------------------------------------------------- LANDING PAGE */
+
+.div-pag {
+    padding: 0 10px;
+}
+
+.div-pag hr {
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+}
 
 /* --------------------------------- SECTION 1 LP*/
 
@@ -185,7 +196,7 @@ body {
     text-align: center;
 }
 
-.flechaHaciaAbajo {
+.flecha-hacia-abajo {
     width: 20px;
     height: auto;
     padding-bottom: 10px;
@@ -226,7 +237,7 @@ body {
 
 .section-1-lp-2-2 p {
     text-align: justify;
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin: 0;
 }
 
@@ -364,16 +375,6 @@ body {
     margin-bottom: -12px;
 }
 
-.div-pag {
-    padding: 0 10px;
-}
-
-.div-pag hr {
-    margin: 0;
-    padding: 0 10px;
-    color: white;
-}
-
 /* -------------------------------------------------------------------------- FOOTER */
 
 .footer {
@@ -434,6 +435,27 @@ body {
     .mobile-nav-menu li {
         padding-right: 40px;
     }
+
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* --------------------------------- SECTION 1 LP*/
+
+    .section-1-lp-1-1 img {
+        width: 300px;
+    }
+
+    .section-1-lp-1-1 h1 {
+        font-size: 55px;
+    }
+
+    .section-1-lp-1-2 img {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .section-1-lp-2-2 p {
+        padding: 15px 20px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -462,6 +484,37 @@ body {
     .burger-menu {
         display: none;
     }
+
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* --------------------------------- SECTION 1 LP*/
+
+    .section-1-lp-1 {
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .section-1-lp-1-1 {
+        margin-top: 40px;
+    }
+
+    .section-1-lp-1-1 img {
+        width: 250px;
+    }
+
+    .section-1-lp-1-1 h1 {
+        font-size: 45px;
+    }
+
+    .section-1-lp-1-2 img {
+        width: 250px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .section-1-lp-2-2 p {
+        padding: 20px 40px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -480,6 +533,27 @@ body {
 
     .linea-separadora {
         margin-left: 15px;
+    }
+
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* --------------------------------- SECTION 1 LP*/
+
+    .section-1-lp-1-1 img {
+        width: 300px;
+    }
+
+    .section-1-lp-1-1 h1 {
+        font-size: 55px;
+    }
+
+    .section-1-lp-1-2 img {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .section-1-lp-2-2 p {
+        padding: 20px 70px;
     }
 }
 
@@ -504,6 +578,35 @@ body {
     .linea-separadora {
         margin-left: 20px;
     }
+
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* --------------------------------- SECTION 1 LP*/
+
+    .section-1-lp-1 {
+        margin-bottom: 24px;
+    }
+
+    .section-1-lp-1-1 img {
+        width: 350px;
+    }
+
+    .section-1-lp-1-1 h1 {
+        font-size: 65px;
+    }
+
+    .section-1-lp-1-2 img {
+        width: 350px;
+    }
+
+    .boton-home {
+        padding: 5px 50px;
+        font-size: 25px;
+    }
+
+    .section-1-lp-2-2 p {
+        padding: 30px 100px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -523,6 +626,35 @@ body {
     .linea-separadora {
         margin-left: 20px;
     }
+
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* --------------------------------- SECTION 1 LP*/
+
+    .section-1-lp-1 {
+        margin-bottom: 30px;
+    }
+
+    .section-1-lp-1-1 img {
+        width: 450px;
+    }
+
+    .section-1-lp-1-1 h1 {
+        font-size: 75px;
+    }
+
+    .section-1-lp-1-2 img {
+        width: 400px;
+    }
+
+    .boton-home {
+        padding: 10px 70px;
+    }
+
+    .section-1-lp-2-2 p {
+        font-size: 22px;
+        padding: 40px 140px;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -541,5 +673,39 @@ body {
 
     .linea-separadora {
         margin-left: 25px;
+    }
+
+    /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    /* --------------------------------- SECTION 1 LP*/
+
+    .section-1-lp-1 {
+        padding-top: 110px;
+    }
+
+    .section-1-lp-1-1 img {
+        width: 550px;
+    }
+
+    .section-1-lp-1-1 h1 {
+        font-size: 95px;
+    }
+
+    .section-1-lp-1-2 img {
+        width: 500px;
+    }
+
+    .flecha-hacia-abajo {
+        width: 30px;
+    }
+
+    .boton-home {
+        font-size: 30px;
+        padding: 20px 100px;
+    }
+
+    .section-1-lp-2-2 p {
+        font-size: 26px;
+        padding: 50px 170px;
     }
 }

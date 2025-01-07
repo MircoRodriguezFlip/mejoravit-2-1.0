@@ -15,7 +15,11 @@ export const Section5Lp = () => {
             </div>
 
             <div className="section-5-lp-2">
-                <img src={ImgSection5LP} alt="Mujer vestida de traje, investigando sobre el crédito mejoravit en un computador portátil" />
+                <img
+                    src={ImgSection5LP}
+                    alt="Mujer vestida de traje, investigando sobre el crédito mejoravit en un computador portátil"
+                    loading="lazy"
+                />
             </div>
         </section>
     );

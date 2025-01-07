@@ -8,7 +8,7 @@ import { ScrollToTop } from './hooks/ScrollTop';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/mejoravit-2-1.0">
             <ScrollToTop />
 
             <NavBar />
