@@ -10,9 +10,9 @@ export const Section2Lp = () => {
             <div className="section-2-lp-2 light-text">
                 <div>
                     <ul>
-                        <li>Plazos más cómodos para cubrir el pago, los cuales van de 12 meses a 48 meses.</li>
-                        <li>Puedes solicitarlo aunque solo tengas 6 meses cotizando en el IMSS con el mismo patrón.</li>
-                        <li>Mejor tasa de interés la cual es del 11% anual (más baja en comparación con otros préstamos personales similares).</li>
+                        <li>plazos flexibles de 12 a 48 meses para realizar el pago.</li>
+                        <li>Solicitalo con solo 6 meses cotizando en el IMSS con el mismo empleador.</li>
+                        <li>Tasa de interés del 11% anual, más baja que otros préstamos similares.</li>
                     </ul>
                 </div>
 
