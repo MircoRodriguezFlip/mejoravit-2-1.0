@@ -2,7 +2,7 @@ import ImgPaloma4LP from '../../assets/images/Paloma Mejoravit 2.webp';
 
 const steps = [
     {
-        text: 'Contar por lo menos con dos referencias personales.',
+        text: 'Contar con dos referencias personales.',
         highlight: 'referencias',
     },
     {
@@ -23,7 +23,7 @@ export const Section4Lp = () => {
     return (
         <section className="section-4-lp-container">
             <div className="section-4-lp-1 bold-text">
-                <h3>El proceso para sacar tu préstamo Infonavit en efectivo:</h3>
+                <h2>El proceso para sacar tu préstamo Infonavit en efectivo:</h2>
             </div>
 
             <div className="section-4-lp-2 light-text">
