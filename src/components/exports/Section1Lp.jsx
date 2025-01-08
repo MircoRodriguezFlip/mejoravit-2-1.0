@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import LogoNavbar from '../../assets/images/Logo Mejoravit Home negro.webp';
+import LogoPortada from '../../assets/images/logo negro.webp';
 import TarjetaCredito from '../../assets/images/Tarjeta 2.webp';
 import FlechaHome from '../../assets/images/Flecha Home.webp';
 
@@ -9,7 +9,7 @@ export const Section1Lp = () => {
         <section className="section-1-lp-container">
             <div className="section-1-lp-1">
                 <div className="section-1-lp-1-1">
-                    <img src={LogoNavbar} alt="Logo de MejoraVit" loading="lazy" />
+                    <img src={LogoPortada} alt="Logo de MejoraVit" loading="lazy" />
                     <h1 className="bold-text">¡Solicita tu crédito!</h1>
                 </div>
 

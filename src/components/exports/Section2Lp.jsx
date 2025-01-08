@@ -1,4 +1,4 @@
-import ImgSection2LP from '../../assets/images/Imagen Section 2LP.png';
+import ImgSection2LP from '../../assets/images/Imagen Section 2LP.webp';
 
 export const Section2Lp = () => {
     return (

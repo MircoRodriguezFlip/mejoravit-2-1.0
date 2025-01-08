@@ -34,10 +34,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: var(--text-color);
+    box-shadow: 0 4px 10px var(--shadow-color);
     width: 100%;
     z-index: 99;
+    position: relative;
 }
 
 .logo-container {
@@ -168,6 +170,10 @@ body {
     text-align: center;
     padding: 10px;
     background-color: white;
+    background-image: url('https://i.ibb.co/BZcrhkX/2000x1100.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section-1-lp-1-1 img {
@@ -235,7 +241,7 @@ body {
 
 .boton-home:hover {
     background: linear-gradient(135deg, #dbb7e7, #a93a65);
-    color: #424242;
+    color: #292929;
 }
 
 .section-1-lp-2-2 p {
@@ -373,6 +379,10 @@ body {
     padding: 0 10px;
     padding-top: 20px;
     background-color: white;
+    background-image: url('https://i.ibb.co/BZcrhkX/2000x1100.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section-5-lp-1 p {
@@ -387,7 +397,7 @@ body {
     user-select: none;
     pointer-events: none;
     margin-left: 40vw;
-    margin-bottom: -12px;
+    margin-bottom: -4px;
 }
 
 /* -------------------------------------------------------------------------- FOOTER */
