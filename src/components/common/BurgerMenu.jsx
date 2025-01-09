@@ -1,34 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import { navLinks } from '../utils/NavBarMenu';
 
 export const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
-    const handleScroll = () => {
-        if (window.scrollY > 50) {
-            setIsScrolled(true);
-        } else {
-            setIsScrolled(false);
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
         <div className="burger-menu">
@@ -37,9 +20,6 @@ export const BurgerMenu = () => {
 
             {/* Contenedor del menú móvil */}
             <div className={`mobile-nav-menu ${isOpen ? 'open' : ''}`}>
-                {/* Botón "X" independiente */}
-                {isScrolled && <FontAwesomeIcon icon={faTimes} className="close-menu-icon" onClick={toggleMenu} />}
-
                 {/* Opciones del menú */}
                 <ul className="burger-menu-nav bold-text">
                     {navLinks.map((link) => (

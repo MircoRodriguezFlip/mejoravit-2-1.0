@@ -8,18 +8,15 @@
     --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
-.light-text,
 .bold-text {
     font-family: 'League Spartan', sans-serif;
     text-shadow: 2px 2px 4px var(--shadow-color);
+    font-weight: 700;
 }
 
 .light-text {
+    font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-}
-
-.bold-text {
-    font-weight: 700;
 }
 
 body {
@@ -39,7 +36,7 @@ body {
     box-shadow: 0 4px 10px var(--shadow-color);
     width: 100%;
     z-index: 99;
-    position: relative;
+    position: fixed;
 }
 
 .logo-container {
@@ -146,7 +143,23 @@ body {
     font-weight: bold;
 }
 
+.menu-nav li a:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color);
+    opacity: 0.5;
+    transition: width 0.3s ease;
+}
+
 /* -------------------------------------------------------------------------- LANDING PAGE */
+
+.landing-page-container {
+    padding-top: 64px;
+}
 
 .div-pag {
     padding: 0 10px;
@@ -159,6 +172,7 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 4px var(--shadow-color);
+    opacity: 0.3;
 }
 
 /* --------------------------------- SECTION 1 LP*/
@@ -181,6 +195,7 @@ body {
     height: auto;
     user-select: none;
     pointer-events: none;
+    margin-top: 30px;
 }
 
 .section-1-lp-1-1 h1 {
@@ -195,6 +210,10 @@ body {
     user-select: none;
     pointer-events: none;
     margin-top: 20px;
+}
+
+.titulo-section-1-2 {
+    display: none;
 }
 
 .section-1-lp-2-1 {
@@ -237,6 +256,7 @@ body {
     color: #ffffff;
     background: linear-gradient(135deg, #e84e74, #ac3150);
     box-shadow: -4px 0 10px var(--shadow-color);
+    margin-top: 10px;
 }
 
 .boton-home:hover {
@@ -244,10 +264,17 @@ body {
     color: #292929;
 }
 
+.section-1-lp-2-2 {
+    padding: 30px 20px;
+}
+
 .section-1-lp-2-2 p {
-    text-align: justify;
-    padding: 20px 20px;
     margin: 0;
+}
+
+.section-1-lp-2-2-p2 {
+    font-size: 22px;
+    padding-top: 15px;
 }
 
 /* --------------------------------- SECTION 2 LP*/
@@ -362,7 +389,7 @@ body {
 }
 
 .section-4-lp-pasos img {
-    width: 70px;
+    width: 50px;
     height: auto;
     user-select: none;
     pointer-events: none;
@@ -463,6 +490,10 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
+    .landing-page-container {
+        padding-top: 69px;
+    }
+
     .div-pag {
         padding: 0 20px;
     }
@@ -471,6 +502,7 @@ body {
 
     .section-1-lp-1-1 img {
         width: 300px;
+        margin-top: 20px;
     }
 
     .section-1-lp-1-1 h1 {
@@ -482,8 +514,12 @@ body {
         margin-top: 10px;
     }
 
-    .section-1-lp-2-2 p {
-        padding: 15px 20px;
+    .section-1-lp-2-2-p1 {
+        font-size: 20px;
+    }
+
+    .section-1-lp-2-2-p2 {
+        font-size: 26px;
     }
 
     /* --------------------------------- SECTION 2 LP*/
@@ -567,7 +603,7 @@ body {
         align-items: center;
         gap: 10px;
         margin: 5px;
-        padding-right: 20px;
+        padding-right: 40px;
         font-size: 22px;
     }
 
@@ -582,6 +618,10 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
+    .landing-page-container {
+        padding-top: 74px;
+    }
+
     .div-pag {
         padding: 0 30px;
     }
@@ -590,7 +630,12 @@ body {
 
     .section-1-lp-1 {
         display: flex;
+        flex-direction: row-reverse;
         padding-top: 20px;
+    }
+
+    .titulo-section-1-1 {
+        display: none;
     }
 
     .section-1-lp-1-1 {
@@ -599,6 +644,7 @@ body {
 
     .section-1-lp-1-1 img {
         width: 250px;
+        margin-top: 0px;
     }
 
     .section-1-lp-1-1 h1 {
@@ -607,12 +653,25 @@ body {
 
     .section-1-lp-1-2 img {
         width: 250px;
-        margin-top: 30px;
+        margin-top: 70px;
         margin-left: 40px;
     }
 
-    .section-1-lp-2-2 p {
-        padding: 20px 40px;
+    .boton-home {
+        margin-top: 5px;
+    }
+
+    .titulo-section-1-2 {
+        display: block;
+    }
+
+    .section-1-lp-2-2-p1 {
+        font-size: 22px;
+    }
+
+    .section-1-lp-2-2-p2 {
+        font-size: 30px;
+        padding-top: 10px;
     }
 
     /* --------------------------------- SECTION 2 LP*/
@@ -697,7 +756,7 @@ body {
     }
 
     .section-4-lp-pasos img {
-        width: 70px;
+        width: 60px;
     }
 
     .section-4-lp-pasos p {
@@ -744,6 +803,10 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
+    .landing-page-container {
+        padding-top: 89px;
+    }
+
     .div-pag {
         padding: 0 40px;
     }
@@ -763,8 +826,14 @@ body {
         margin-left: 30px;
     }
 
-    .section-1-lp-2-2 p {
-        padding: 20px 70px;
+    .section-1-lp-2-2-p1 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .section-1-lp-2-2-p2 {
+        font-size: 36px;
+        padding-top: 15px;
     }
 
     /* --------------------------------- SECTION 2 LP*/
@@ -822,7 +891,7 @@ body {
     }
 
     .section-4-lp-pasos img {
-        width: 90px;
+        width: 70px;
     }
 
     .section-4-lp-pasos p {
@@ -856,14 +925,14 @@ body {
     }
 
     .logo-navbar {
-        height: 85px;
+        height: 65px;
         padding-left: 85px;
     }
 
     .menu-nav {
         gap: 20px;
         padding-right: 70px;
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .linea-separadora {
@@ -871,6 +940,10 @@ body {
     }
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    .landing-page-container {
+        padding-top: 94px;
+    }
 
     .div-pag {
         padding: 0 50px;
@@ -880,6 +953,7 @@ body {
 
     .section-1-lp-1 {
         margin-bottom: 24px;
+        margin-top: 22px;
     }
 
     .section-1-lp-1-1 img {
@@ -899,8 +973,14 @@ body {
         font-size: 25px;
     }
 
-    .section-1-lp-2-2 p {
-        padding: 30px 100px;
+    .section-1-lp-2-2-p1 {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+
+    .section-1-lp-2-2-p2 {
+        font-size: 40px;
+        padding-top: 15px;
     }
 
     /* --------------------------------- SECTION 2 LP*/
@@ -965,7 +1045,7 @@ body {
     }
 
     .section-4-lp-pasos img {
-        width: 110px;
+        width: 80px;
     }
 
     .section-4-lp-pasos p {
@@ -994,14 +1074,14 @@ body {
     /* ------------------------------------------------------------------------------------ NAVBAR */
 
     .logo-navbar {
-        height: 100px;
+        height: 80px;
         padding-left: 75px;
     }
 
     .menu-nav {
         gap: 20px;
         padding-right: 75px;
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .linea-separadora {
@@ -1009,6 +1089,10 @@ body {
     }
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    .landing-page-container {
+        padding-top: 109px;
+    }
 
     /* --------------------------------- SECTION 1 LP*/
 
@@ -1032,9 +1116,13 @@ body {
         padding: 10px 70px;
     }
 
-    .section-1-lp-2-2 p {
-        font-size: 22px;
-        padding: 40px 140px;
+    .section-1-lp-2-2-p1 {
+        font-size: 32px;
+    }
+
+    .section-1-lp-2-2-p2 {
+        font-size: 45px;
+        padding-top: 25px;
     }
 
     /* --------------------------------- SECTION 2 LP*/
@@ -1095,7 +1183,7 @@ body {
     }
 
     .section-4-lp-pasos img {
-        width: 130px;
+        width: 90px;
     }
 
     .section-4-lp-pasos p {
@@ -1124,14 +1212,14 @@ body {
     /* ------------------------------------------------------------------------------------ NAVBAR */
 
     .logo-navbar {
-        height: 120px;
+        height: 90px;
         padding-left: 120px;
     }
 
     .menu-nav {
         gap: 25px;
         padding-right: 130px;
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .linea-separadora {
@@ -1139,6 +1227,10 @@ body {
     }
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
+
+    .landing-page-container {
+        padding-top: 119px;
+    }
 
     .div-pag {
         padding: 0 70px;
@@ -1171,9 +1263,15 @@ body {
         padding: 20px 100px;
     }
 
-    .section-1-lp-2-2 p {
-        font-size: 26px;
-        padding: 50px 170px;
+    .section-1-lp-2-2-p1 {
+        font-size: 40px;
+        padding-top: 25px;
+    }
+
+    .section-1-lp-2-2-p2 {
+        font-size: 60px;
+        padding-top: 40px;
+        padding-bottom: 17px;
     }
 
     /* --------------------------------- SECTION 2 LP*/
@@ -1238,7 +1336,7 @@ body {
     }
 
     .section-4-lp-pasos img {
-        width: 150px;
+        width: 100px;
     }
 
     .section-4-lp-pasos p {
