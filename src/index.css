@@ -446,8 +446,12 @@ body {
 }
 
 .section-1-aip-container h1 {
-    padding: 0 20px;
-    font-size: 25px;
+    padding: 0 10px;
+    font-size: 28px;
+}
+
+.section-1-aip-container h2 {
+    display: none;
 }
 
 .section-1-aip-ventajas {
@@ -474,7 +478,8 @@ body {
     background-size: cover;
 }
 
-.precalificar-page-titulo {
+.precalificar-page-titulo,
+.contacto-page-titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,13 +487,17 @@ body {
     text-align: center;
 }
 
-.precalificar-page-titulo img {
+.precalificar-page-titulo img,
+.contacto-page-titulo img {
     width: 250px;
     padding-top: 20px;
 }
 
 .precalificar-page-titulo h1,
-.precalificar-page-titulo h2 {
+.precalificar-page-titulo h2,
+.contacto-page-titulo h1,
+.contacto-page-titulo h2,
+.contacto-page-titulo h3 {
     margin: 0;
 }
 
@@ -516,6 +525,13 @@ body {
 
 .campos-obligatorios p {
     margin: 0;
+}
+
+.campo-precalificar-form select,
+.campo-precalificar-form input,
+.campo-precalificar-form textarea {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .campo-precalificar-form {
@@ -562,7 +578,6 @@ body {
     color: #ffffff;
     background: linear-gradient(135deg, #e84e74, #ac3150);
     box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 1;
 }
 
 .botonForm:hover {
@@ -577,15 +592,44 @@ body {
     align-items: center;
 }
 
-.precalificar-form-image {
+.precalificar-form-image,
+.contacto-form-image {
     display: flex;
     justify-content: end;
     margin-top: -35px;
-    z-index: 0;
 }
 
 .precalificar-form-image img {
     height: 200px;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* -------------------------------------------------------------------------- CONTACTO PAGE */
+
+.contacto-page-titulo h1 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.contacto-page-titulo h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.contacto-page-titulo h3 {
+    font-size: 20px;
+}
+
+/* -------------------------------------------------------------------------- FORM CONTACTO */
+
+.textAreaForm {
+    resize: none;
+}
+
+.contacto-form-image img {
+    height: 100px;
+    margin-bottom: 50px;
     user-select: none;
     pointer-events: none;
 }
@@ -754,8 +798,7 @@ body {
     /* --------------------------------- SECTION 1 AIP */
 
     .section-1-aip-container h1 {
-        padding: 0 40px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .section-1-aip-ventajas {
@@ -774,7 +817,8 @@ body {
 
     /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
 
-    .precalificar-page-titulo img {
+    .precalificar-page-titulo img,
+    .contacto-page-titulo img {
         width: 300px;
     }
 
@@ -795,6 +839,22 @@ body {
 
     .botonForm {
         padding: 6px 20px;
+    }
+
+    /* -------------------------------------------------------------------------- CONTACTO PAGE */
+
+    .contacto-page-titulo h1 {
+        font-size: 35px;
+    }
+
+    .contacto-page-titulo h2 {
+        font-size: 24px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM CONTACTO */
+
+    .contacto-form-image img {
+        height: 150px;
     }
 }
 
@@ -993,6 +1053,16 @@ body {
 
     /* --------------------------------- SECTION 1 AIP */
 
+    .section-1-aip-container h1 {
+        display: none;
+    }
+
+    .section-1-aip-container h2 {
+        display: block;
+        padding: 0 10px;
+        font-size: 32px;
+    }
+
     .section-1-aip-ventaja {
         display: flex;
         align-items: center;
@@ -1007,7 +1077,8 @@ body {
 
     /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
 
-    .precalificar-page-titulo img {
+    .precalificar-page-titulo img,
+    .contacto-page-titulo img {
         width: 350px;
         padding-top: 20px;
     }
@@ -1036,6 +1107,22 @@ body {
 
     .precalificar-form-image img {
         height: 250px;
+    }
+
+    /* -------------------------------------------------------------------------- CONTACTO PAGE */
+
+    .contacto-page-titulo h1 {
+        font-size: 45px;
+        padding: 0px 0;
+    }
+
+    .contacto-page-titulo h2 {
+        font-size: 26px;
+        padding: 10px 0;
+    }
+
+    .contacto-page-titulo h3 {
+        font-size: 22px;
     }
 }
 
@@ -1174,7 +1261,7 @@ body {
 
     /* --------------------------------- SECTION 1 AIP */
 
-    .section-1-aip-container h1 {
+    .section-1-aip-container h2 {
         font-size: 40px;
     }
 
@@ -1192,7 +1279,8 @@ body {
 
     /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
 
-    .precalificar-page-titulo img {
+    .precalificar-page-titulo img,
+    .contacto-page-titulo img {
         width: 400px;
         padding-top: 30px;
     }
@@ -1223,6 +1311,18 @@ body {
 
     .precalificar-form-image img {
         height: 300px;
+    }
+
+    /* -------------------------------------------------------------------------- CONTACTO PAGE */
+
+    .contacto-page-titulo h1 {
+        font-size: 55px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM CONTACTO */
+
+    .contacto-form-image img {
+        height: 200px;
     }
 }
 
@@ -1380,9 +1480,8 @@ body {
 
     /* --------------------------------- SECTION 1 AIP */
 
-    .section-1-aip-container h1 {
+    .section-1-aip-container h2 {
         font-size: 50px;
-        padding: 0 100px;
     }
 
     .section-1-aip-ventajas {
@@ -1400,7 +1499,8 @@ body {
 
     /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
 
-    .precalificar-page-titulo img {
+    .precalificar-page-titulo img,
+    .contacto-page-titulo img {
         width: 450px;
     }
 
@@ -1448,6 +1548,21 @@ body {
 
     .precalificar-form-image img {
         height: 350px;
+    }
+
+    /* -------------------------------------------------------------------------- CONTACTO PAGE */
+
+    .contacto-page-titulo h1 {
+        font-size: 65px;
+    }
+
+    .contacto-page-titulo h2 {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+
+    .contacto-page-titulo h3 {
+        font-size: 24px;
     }
 }
 
@@ -1590,8 +1705,8 @@ body {
 
     /* --------------------------------- SECTION 1 AIP */
 
-    .section-1-aip-container h1 {
-        margin-bottom: 60px;
+    .section-1-aip-container h2 {
+        font-size: 60px;
     }
 
     .section-1-aip-ventajas img {
@@ -1604,7 +1719,8 @@ body {
 
     /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
 
-    .precalificar-page-titulo img {
+    .precalificar-page-titulo img,
+    .contacto-page-titulo img {
         width: 500px;
         padding-top: 40px;
     }
@@ -1775,10 +1891,6 @@ body {
 
     /* --------------------------------- SECTION 1 AIP */
 
-    .section-1-aip-container h1 {
-        font-size: 60px;
-    }
-
     .section-1-aip-ventajas {
         padding: 0 500px;
     }
@@ -1829,5 +1941,26 @@ body {
 
     .precalificar-form-image img {
         height: 400px;
+    }
+
+    /* -------------------------------------------------------------------------- CONTACTO PAGE */
+
+    .contacto-page-titulo h1 {
+        font-size: 85px;
+    }
+
+    .contacto-page-titulo h2 {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+
+    .contacto-page-titulo h3 {
+        font-size: 30px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM CONTACTO */
+
+    .contacto-form-image img {
+        height: 200px;
     }
 }

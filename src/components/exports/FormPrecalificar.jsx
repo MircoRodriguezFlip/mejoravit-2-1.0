@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
@@ -108,8 +108,8 @@ export const FormPrecalificar = () => {
                     *Estado donde vives:
                 </label>
                 <select className="form-control" id="estado" name="estado" value={formData.estado} onChange={handleChange}>
-                    {estados.map((estado, index) => (
-                        <option key={index} value={estado}>
+                    {estados.map((estado) => (
+                        <option key={estado} value={estado}>
                             {estado}
                         </option>
                     ))}

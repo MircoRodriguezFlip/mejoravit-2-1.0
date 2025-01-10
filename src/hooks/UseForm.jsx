@@ -52,12 +52,12 @@ export const UseForm = () => {
 
         if (name === 'telefono') {
             // Asegura que solo se permitan números, añade prefijo +52 si no está presente
-            const cleanValue = value.replace(/[^0-9]/g, ''); // Elimina caracteres no numéricos
+            const cleanValue = value.replace(/\D/g, ''); // Elimina caracteres no numéricos
             const formattedValue = cleanValue.startsWith('52') ? '+' + cleanValue : '+52' + cleanValue;
             setFormData((prev) => ({ ...prev, telefono: formattedValue }));
         } else if (name === 'seguroSocial') {
             // Limita el NSS a 11 caracteres y solo números
-            const cleanValue = value.replace(/[^0-9]/g, '').slice(0, 11);
+            const cleanValue = value.replace(/\D/g, '').slice(0, 11);
             setFormData((prev) => ({ ...prev, seguroSocial: cleanValue }));
         } else {
             setFormData((prev) => ({ ...prev, [name]: value }));

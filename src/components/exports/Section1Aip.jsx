@@ -33,7 +33,14 @@ const ventajas = [
 export const Section1Aip = () => {
     return (
         <section className="section-1-aip-container bold-text">
-            <h1>Conoce las ventajas de tu crédito Mejoravit</h1>
+            <h1>
+                Conoce las ventajas de tu <br />
+                crédito Mejoravit
+            </h1>
+
+            <h2>
+                Ventajas más importantes que debes conocer <br /> para que te decidas a solicitar tu crédito Mejoravit
+            </h2>
 
             <div className="section-1-aip-ventajas light-text">
                 {ventajas.map((ventaja) => {
