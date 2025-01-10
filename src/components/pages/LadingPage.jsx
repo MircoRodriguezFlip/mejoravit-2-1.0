@@ -6,7 +6,7 @@ import { Section5Lp } from '../exports/Section5Lp';
 
 export const LandingPage = () => {
     return (
-        <main className="landing-page-container">
+        <main className="page-container">
             <section>
                 <Section1Lp />
             </section>

@@ -157,7 +157,7 @@ body {
 
 /* -------------------------------------------------------------------------- LANDING PAGE */
 
-.landing-page-container {
+.page-container {
     padding-top: 64px;
 }
 
@@ -427,6 +427,39 @@ body {
     margin-bottom: -4px;
 }
 
+/* -------------------------------------------------------------------------- ADD INFO PAGE */
+
+/* --------------------------------- SECTION 1 AIP */
+
+.section-1-aip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.section-1-aip-container h1 {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.section-1-aip-ventajas {
+    padding: 0 20px;
+}
+
+.section-1-aip-ventajas img {
+    height: 150px;
+}
+
+.section-1-aip-ventajas p {
+    font-size: 16.5px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
 /* -------------------------------------------------------------------------- FOOTER */
 
 .footer {
@@ -490,7 +523,7 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
-    .landing-page-container {
+    .page-container {
         padding-top: 69px;
     }
 
@@ -587,6 +620,27 @@ body {
         width: 250px;
         margin-left: 0vw;
     }
+
+    /* --------------------------------- SECTION 1 AIP */
+
+    .section-1-aip-container h1 {
+        padding: 0 40px;
+        font-size: 30px;
+    }
+
+    .section-1-aip-ventajas {
+        padding: 0 40px;
+    }
+
+    .section-1-aip-ventajas img {
+        height: 180px;
+    }
+
+    .section-1-aip-ventajas p {
+        font-size: 25px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
 }
 
 @media (min-width: 768px) {
@@ -618,7 +672,7 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
-    .landing-page-container {
+    .page-container {
         padding-top: 74px;
     }
 
@@ -781,6 +835,20 @@ body {
     .section-5-lp-2 img {
         width: 270px;
     }
+
+    /* --------------------------------- SECTION 1 AIP */
+
+    .section-1-aip-ventaja {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .section-1-aip-ventajas p {
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -803,7 +871,7 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
-    .landing-page-container {
+    .page-container {
         padding-top: 89px;
     }
 
@@ -915,6 +983,24 @@ body {
     .section-5-lp-2 img {
         width: 300px;
     }
+
+    /* --------------------------------- SECTION 1 AIP */
+
+    .section-1-aip-container h1 {
+        font-size: 40px;
+    }
+
+    .section-1-aip-ventajas {
+        padding: 0 150px;
+    }
+
+    .section-1-aip-ventaja {
+        padding-bottom: 30px;
+    }
+
+    .section-1-aip-ventajas p {
+        padding-left: 40px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -941,7 +1027,7 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
-    .landing-page-container {
+    .page-container {
         padding-top: 94px;
     }
 
@@ -1068,6 +1154,26 @@ body {
     .section-5-lp-2 img {
         width: 350px;
     }
+
+    /* --------------------------------- SECTION 1 AIP */
+
+    .section-1-aip-container h1 {
+        font-size: 50px;
+        padding: 0 100px;
+    }
+
+    .section-1-aip-ventajas {
+        padding: 0 300px;
+    }
+
+    .section-1-aip-ventaja {
+        padding-bottom: 50px;
+    }
+
+    .section-1-aip-ventajas p {
+        padding-left: 90px;
+        text-align: left;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -1090,7 +1196,7 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
-    .landing-page-container {
+    .page-container {
         padding-top: 109px;
     }
 
@@ -1206,6 +1312,20 @@ body {
     .section-5-lp-2 img {
         width: 400px;
     }
+
+    /* --------------------------------- SECTION 1 AIP */
+
+    .section-1-aip-container h1 {
+        margin-bottom: 60px;
+    }
+
+    .section-1-aip-ventajas img {
+        height: 200px;
+    }
+
+    .section-1-aip-ventajas p {
+        padding-left: 120px;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -1228,7 +1348,7 @@ body {
 
     /* -------------------------------------------------------------------------- LANDING PAGE */
 
-    .landing-page-container {
+    .page-container {
         padding-top: 119px;
     }
 
@@ -1359,5 +1479,30 @@ body {
 
     .section-5-lp-2 img {
         width: 450px;
+    }
+
+    /* --------------------------------- SECTION 1 AIP */
+
+    .section-1-aip-container h1 {
+        font-size: 50px;
+        padding: 0 100px;
+        margin-bottom: 60px;
+    }
+
+    .section-1-aip-ventajas {
+        padding: 0 300px;
+    }
+
+    .section-1-aip-ventaja {
+        padding-bottom: 50px;
+    }
+
+    .section-1-aip-ventajas img {
+        height: 200px;
+    }
+
+    .section-1-aip-ventajas p {
+        font-size: 25px;
+        padding-left: 120px;
     }
 }
