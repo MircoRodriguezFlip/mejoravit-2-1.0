@@ -438,6 +438,10 @@ body {
     text-align: center;
     align-items: center;
     background-color: white;
+    background-image: url('https://i.ibb.co/BZcrhkX/2000x1100.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 10px;
 }
 
@@ -458,6 +462,132 @@ body {
     font-size: 16.5px;
     padding-bottom: 20px;
     text-align: justify;
+}
+
+/* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+.fondo-page {
+    background-color: white;
+    background-image: url('https://i.ibb.co/BZcrhkX/2000x1100.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.precalificar-page-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.precalificar-page-titulo img {
+    width: 250px;
+    padding-top: 20px;
+}
+
+.precalificar-page-titulo h1,
+.precalificar-page-titulo h2 {
+    margin: 0;
+}
+
+.precalificar-page-titulo h1 {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.precalificar-page-titulo h2 {
+    text-align: justify;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+/* -------------------------------------------------------------------------- FORM */
+
+.form {
+    padding: 0 20px;
+    padding-top: 50px;
+}
+
+.campos-obligatorios {
+    text-align: end;
+}
+
+.campos-obligatorios p {
+    margin: 0;
+}
+
+.campo-precalificar-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    background-color: white;
+    border-color: #000000;
+}
+
+.form-error,
+.text-danger {
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+}
+
+.text-danger {
+    margin-top: -16px;
+}
+
+.form-error {
+    position: absolute;
+}
+
+.form-error p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.botonForm {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 6px 13px;
+    line-height: 1.5;
+    border-radius: 1rem;
+    color: #ffffff;
+    background: linear-gradient(135deg, #e84e74, #ac3150);
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.botonForm:hover {
+    background: linear-gradient(135deg, #dbb7e7, #a93a65);
+    color: rgb(66, 66, 66);
+}
+
+.spinner-container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precalificar-form-image {
+    display: flex;
+    justify-content: end;
+    margin-top: -35px;
+    z-index: 0;
+}
+
+.precalificar-form-image img {
+    height: 200px;
+    user-select: none;
+    pointer-events: none;
 }
 
 /* -------------------------------------------------------------------------- FOOTER */
@@ -640,6 +770,31 @@ body {
         font-size: 25px;
         padding-bottom: 20px;
         text-align: justify;
+    }
+
+    /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+    .precalificar-page-titulo img {
+        width: 300px;
+    }
+
+    .precalificar-page-titulo h1 {
+        font-size: 30px;
+    }
+
+    .precalificar-page-titulo h2 {
+        font-size: 20px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM */
+
+    .form {
+        padding: 0 50px;
+        padding-top: 60px;
+    }
+
+    .botonForm {
+        padding: 6px 20px;
     }
 }
 
@@ -849,6 +1004,39 @@ body {
         padding-bottom: 0px;
         padding-left: 30px;
     }
+
+    /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+    .precalificar-page-titulo img {
+        width: 350px;
+        padding-top: 20px;
+    }
+
+    .precalificar-page-titulo h1 {
+        font-size: 40px;
+        padding: 10px 0;
+    }
+
+    .precalificar-page-titulo h2 {
+        padding: 0 40px;
+        padding-top: 10px;
+        font-size: 21px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM */
+
+    .form {
+        padding: 0 100px;
+        padding-top: 60px;
+    }
+
+    .botonForm {
+        padding: 6px 30px;
+    }
+
+    .precalificar-form-image img {
+        height: 250px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -1000,6 +1188,41 @@ body {
 
     .section-1-aip-ventajas p {
         padding-left: 40px;
+    }
+
+    /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+    .precalificar-page-titulo img {
+        width: 400px;
+        padding-top: 30px;
+    }
+
+    .precalificar-page-titulo h1 {
+        font-size: 50px;
+        padding: 0px 0;
+    }
+
+    /* -------------------------------------------------------------------------- FORM */
+
+    .form {
+        padding: 0 150px;
+        padding-top: 60px;
+    }
+
+    .form-control {
+        padding: 6px 0;
+    }
+
+    .botonForm {
+        padding: 7px 40px;
+    }
+
+    .form-error p {
+        font-size: 13px;
+    }
+
+    .precalificar-form-image img {
+        height: 300px;
     }
 }
 
@@ -1174,6 +1397,58 @@ body {
         padding-left: 90px;
         text-align: left;
     }
+
+    /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+    .precalificar-page-titulo img {
+        width: 450px;
+    }
+
+    .precalificar-page-titulo h1 {
+        font-size: 60px;
+    }
+
+    .precalificar-page-titulo h2 {
+        font-size: 26px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM */
+
+    .form {
+        padding: 0 300px;
+        padding-top: 70px;
+    }
+
+    .campo-precalificar-form {
+        font-size: 20px;
+    }
+
+    .form-control {
+        padding: 7px 0;
+        margin-bottom: 20px;
+    }
+
+    .text-danger {
+        margin-top: -18px;
+        font-size: 16px;
+    }
+
+    .botonForm {
+        padding: 7px 50px;
+        font-size: 16px;
+    }
+
+    .form-error p {
+        font-size: 16px;
+    }
+
+    .precalificar-form-image {
+        margin-top: -50px;
+    }
+
+    .precalificar-form-image img {
+        height: 350px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -1325,6 +1600,23 @@ body {
 
     .section-1-aip-ventajas p {
         padding-left: 120px;
+    }
+
+    /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+    .precalificar-page-titulo img {
+        width: 500px;
+        padding-top: 40px;
+    }
+
+    .precalificar-page-titulo h1 {
+        font-size: 70px;
+        padding: 10px 0;
+    }
+
+    .precalificar-page-titulo h2 {
+        padding-top: 20px;
+        font-size: 30px;
     }
 }
 
@@ -1484,25 +1776,58 @@ body {
     /* --------------------------------- SECTION 1 AIP */
 
     .section-1-aip-container h1 {
-        font-size: 50px;
-        padding: 0 100px;
-        margin-bottom: 60px;
+        font-size: 60px;
     }
 
     .section-1-aip-ventajas {
-        padding: 0 300px;
-    }
-
-    .section-1-aip-ventaja {
-        padding-bottom: 50px;
+        padding: 0 500px;
     }
 
     .section-1-aip-ventajas img {
-        height: 200px;
+        height: 220px;
     }
 
     .section-1-aip-ventajas p {
         font-size: 25px;
-        padding-left: 120px;
+        padding-left: 200px;
+    }
+
+    /* -------------------------------------------------------------------------- PRECALIFICAR PAGE */
+
+    .precalificar-page-titulo h1 {
+        font-size: 80px;
+        padding: 20px 0;
+    }
+
+    .precalificar-page-titulo h2 {
+        font-size: 36px;
+    }
+
+    /* -------------------------------------------------------------------------- FORM */
+
+    .form {
+        padding: 0 500px;
+        padding-top: 80px;
+    }
+
+    .campo-precalificar-form {
+        font-size: 22px;
+    }
+
+    .form-control {
+        padding: 10px 0;
+    }
+
+    .botonForm {
+        padding: 7px 60px;
+        font-size: 20px;
+    }
+
+    .precalificar-form-image {
+        margin-top: -60px;
+    }
+
+    .precalificar-form-image img {
+        height: 400px;
     }
 }

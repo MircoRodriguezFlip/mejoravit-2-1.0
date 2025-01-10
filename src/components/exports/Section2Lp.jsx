@@ -10,7 +10,7 @@ export const Section2Lp = () => {
             <div className="section-2-lp-2 light-text">
                 <div>
                     <ul>
-                        <li>plazos flexibles de 12 a 48 meses para realizar el pago.</li>
+                        <li>Plazos flexibles de 12 a 48 meses para realizar el pago.</li>
                         <li>Solicitalo con solo 6 meses cotizando en el IMSS con el mismo empleador.</li>
                         <li>Tasa de interés del 11% anual, más baja que otros préstamos similares.</li>
                     </ul>
